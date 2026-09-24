@@ -1,0 +1,13 @@
+package com.github.sshoney8756.clueless;
+
+import org.junit.jupiter.api.Test;
+import org.springframework.boot.test.context.SpringBootTest;
+
+@SpringBootTest
+class CluelessApplicationTests {
+
+	@Test
+	void contextLoads() {
+	}
+
+}
