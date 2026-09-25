@@ -15,6 +15,7 @@ public class Game {
 
     @Id
     @GeneratedValue(strategy = GenerationType.UUID)
+    @Column(name = "game_id")
     private UUID id;
 
     @Enumerated(EnumType.STRING)
@@ -27,7 +28,7 @@ public class Game {
     @Column(nullable = false)
     private int currentRound;
 
-    private int finalScore;
+    private Integer finalScore;
 
     @Column(columnDefinition = "TIMESTAMP", nullable = false)
     private LocalDateTime startedAt;
